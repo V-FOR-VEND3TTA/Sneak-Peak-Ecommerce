@@ -506,6 +506,7 @@ img {
   background-color: var(--white-color);
   padding: 0.5rem;
   border-radius: 0.5rem;
+  justify-content: flex-end;
 }
 
 .newsletter__input {
