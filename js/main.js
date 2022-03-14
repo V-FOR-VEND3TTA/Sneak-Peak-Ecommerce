@@ -38,11 +38,11 @@ function scrollActive() {
     if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
       document
         .querySelector(".nav__menu a[href*=" + sectionId + "]")
-        .classList.add("active");
+        .classList.add(".active");
     } else {
       document
         .querySelector(".nav__menu a[href*=" + sectionId + "]")
-        .classList.remove("active");
+        .classList.remove(".active");
     }
   });
 }
